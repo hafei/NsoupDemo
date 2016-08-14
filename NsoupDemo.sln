@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsoupDemo.BLL", "NsoupDemo.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UeditorDemo", "UeditorDemo\UeditorDemo.csproj", "{B8A285AF-636A-4867-A50F-976C0400FC2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsoupDemo.DAL", "NsoupDemo.DAL\NsoupDemo.DAL.csproj", "{C2E3E62B-9A7A-4D8E-A6E3-ADA6C5D779D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.Tests", "NUnit.Tests\NUnit.Tests.csproj", "{067456C0-086C-46A8-B37F-1405717B7BFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{B8A285AF-636A-4867-A50F-976C0400FC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8A285AF-636A-4867-A50F-976C0400FC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8A285AF-636A-4867-A50F-976C0400FC2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E3E62B-9A7A-4D8E-A6E3-ADA6C5D779D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E3E62B-9A7A-4D8E-A6E3-ADA6C5D779D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E3E62B-9A7A-4D8E-A6E3-ADA6C5D779D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E3E62B-9A7A-4D8E-A6E3-ADA6C5D779D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{067456C0-086C-46A8-B37F-1405717B7BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067456C0-086C-46A8-B37F-1405717B7BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067456C0-086C-46A8-B37F-1405717B7BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{067456C0-086C-46A8-B37F-1405717B7BFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
