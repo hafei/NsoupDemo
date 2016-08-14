@@ -7,7 +7,7 @@ namespace NUnit.Tests
     [TestFixture]
     public class NUnitTest1
     {
-        //支持参数化测试
+        //支持参数化测试 Nunit
         [TestCase(3)]  
         [TestCase(4)]
         [TestCase(5)]
@@ -19,7 +19,7 @@ namespace NUnit.Tests
             Assert.AreEqual(result.Length, length);
         }
 
-
+        
 
     }
 }
