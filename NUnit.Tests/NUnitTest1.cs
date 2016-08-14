@@ -4,6 +4,7 @@ using NsoupDemo.BLL;
 
 namespace NUnit.Tests
 {
+    //Nunit   
     [TestFixture]
     public class NUnitTest1
     {
@@ -19,7 +20,17 @@ namespace NUnit.Tests
             Assert.AreEqual(result.Length, length);
         }
 
-        
 
+
+        [Test]
+        public void testCharset()
+        {
+            Assert.AreEqual("utf-8", RandomCodeHelper.GetCharsetFromContentType("text/html;charset=utf-8 "));
+            Assert.AreEqual("UTF-8", RandomCodeHelper.GetCharsetFromContentType("text/html; charset=UTF-8"));
+            Assert.AreEqual("ISO-8859-1", RandomCodeHelper.GetCharsetFromContentType("text/html; charset=ISO-8859-1"));
+            Assert.AreEqual(null, RandomCodeHelper.GetCharsetFromContentType("text/html"));
+            Assert.AreEqual(null, RandomCodeHelper.GetCharsetFromContentType(null));
+            Assert.AreEqual(null, RandomCodeHelper.GetCharsetFromContentType("text/html;charset=Unknown"));
+        }
     }
 }
