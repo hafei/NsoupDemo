@@ -84,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="NsoupUtilTests.cs" />
+    <Compile Include="ProducerMQTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
     <Compile Include="RandomCodeHelperTests.cs" />
